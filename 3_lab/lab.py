@@ -1,6 +1,6 @@
 class MyName:
     """Опис класу / Документація"""
-    total_names = 0  # Змінна класу
+    total_names = 0  
 
     def __init__(self, name=None) -> None:
         """Ініціалізація об'єкта"""
