@@ -5,11 +5,11 @@
 
 ## Запустив програму ось що вона вивела:
 
-![alttext](screenshots\1.png)
+![alttext](screenshots/1.png)
 
 ## Модифікував програму додавши своє імя в список
 
-![alttext](screenshots\2.png)
+![alttext](screenshots/2.png)
 
 ## модифікував конструктор init
 
@@ -21,9 +21,9 @@
 #### реалізував метод save_to_file(filename="users.txt"), який додає рядок із записом у файл;
 
 ## Запустив програму і ось що вона вивела
-![alttext](screenshots\3.png)
-![alttext](screenshots\4.png)
-![alttext](screenshots\5.png)
+![alttext](screenshots/3.png)
+![alttext](screenshots/4.png)
+![alttext](screenshots/5.png)
 
 
 #  Таблиця методів класу `MyName`
