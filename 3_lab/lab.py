@@ -54,7 +54,7 @@ class MyName:
 # --- Основна частина програми ---
 print("Розпочинаємо створювати об’єкти!")
 
-names = ("Bohdan", "Marta", None, "Dima")
+names = ("Bohdan", "Marta", None, "2#Dima")
 all_names = {name: MyName(name) for name in names}
 
 for name, me in all_names.items():
