@@ -6,41 +6,44 @@
 
 # Хід роботи
 
-## Крок 1. Основи роботи з сторонніми бібліотеками 
--![alttext](screenshots/1.png)
--![alttext](screenshots/2.png)
--![alttext](screenshots/3.png)
+## Основи роботи з сторонніми бібліотеками 
+- ![alttext](screenshots/1.png)
+- ![alttext](screenshots/2.png)
+- ![alttext](screenshots/5.png)
+- ![alttext](screenshots/n.png)---
+
+## Код Python-скрипту `anime.py`.  
+![alt text]({A01F1C90-B5FE-4017-8B3E-7F6FEBC47255}.png)
+![alt text](image-2.png)
 ---
 
-## Крок 2. Структура проєкту
-- Створено папку `6_lab` з файлами: `anime.py`, `README.md`, зображеннями та середовищем `my_env`.  
-- ![Скріншот структури](screenshots/step2.png)
-
----
-
-## Крок 4. Код `anime.py`
-- Написано Python-скрипт `anime.py`.  
-- ![Скріншот anime.py](screenshots/step4.png)
-
----
-
-## Крок 5. Перегляд `.gitignore` у VS Code
-- Відкрито `.gitignore` у редакторі.  
-- ![Скріншот VS Code](screenshots/step5.png)
-
----
-
-## Крок 6. Створення та активація venv
+## Створення та активація venv
 - Створено віртуальне середовище `my_env`.  
 - Активовано середовище та перевірено бібліотеку `requests`.  
-- ![Скріншот venv](screenshots/step6.png)
+- ![alt text](screenshots/5.png)
 
----
-
-## Крок 7. Pipenv
-- Встановлено `pipenv`.  
+## Використання менеджера пакетів pipenv
+- Встановлено `pipenv`.
+![alt text](screenshots/15.png)
 - Виконано команди:
-  ```powershell
-  pipenv install requests
-  pipenv graph
-  pipenv check --scan
+pipenv graph
+   ![alt text](screenshots/10.png)
+pipenv check --scan
+   ![alt text](screenshots/9.png)
+
+## Робота з сучасним інструментом Poetry
+ - ![alt text](screenshots/8.png)
+ - ![alt text](screenshots/11.png)
+ - ![alt text]({CD73A0B6-2778-4960-8986-ED365F243A3C}.png)
+ - ![alt text](screenshots/12.png)
+
+ - ![alt text](screenshots/13.png)
+  ![alt text](screenshots/14.png)
+
+## Висновок
+
+Під час виконання лабораторної роботи я закріпив навички роботи з віртуальними середовищами Python та менеджерами залежностей. Було створено та протестовано середовища трьома способами: за допомогою **venv**, **pipenv** та **poetry**, що дозволило переконатися у їхній повній ізоляції від глобальних пакетів системи.  
+
+Я навчився встановлювати та керувати сторонніми бібліотеками (наприклад, `requests`), а також перевіряти їхні залежності та сумісність. Додатково було проведено аналіз коду за допомогою **flake8**, який виявив стильові помилки та показав важливість дотримання стандартів PEP8 для підтримки чистоти та зрозумілості коду.  
+
+Головним результатом стало успішне налаштування інструментів для керування залежностями та середовищами, що підтверджує їхню необхідність у сучасних Python‑проєктах для уникнення конфліктів версій та забезпечення стабільності розробки.
