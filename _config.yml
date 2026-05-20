@@ -1,0 +1,22 @@
+# _config.yml
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+title: 🚀 Dima DROID — Портфоліо
+tagline: Code. Create. Inspire.
+description: Персональний сайт студента та розробника. Тут зібрані мої проєкти, резюме та контакти.
+baseurl: "" 
+url: "https://droid2323.github.io/OOP-main"
+github_username: DROID2323
+
+author:
+  name: Dima DROID
+  email: dimagosovskij9@gmail.com
+  bio: "Frontend Developer | Python | Open Source Contributor. Люблю створювати адаптивні інтерфейси та експериментувати з новими технологіями."
+
+social:
+  - name: GitHub
+    url: https://github.com/DROID2323
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/dimadroid/
