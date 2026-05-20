@@ -1,0 +1,18 @@
+# _config.yml
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+title: Діма DROID — Портфоліо
+tagline: Frontend Developer | Python | Open Source
+description: Портфоліо студента з прикладами проєктів, резюме та контактами.
+baseurl: "" 
+url: "https://username.github.io/repository_name"
+author:
+  name: Діма DROID
+  email: dima@example.com
+social:
+  - name: GitHub
+    url: https://github.com/username
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/username
