@@ -3,6 +3,7 @@ remote_theme: pages-themes/midnight@v0.2.0
 plugins:
   - jekyll-remote-theme
 
+<<<<<<< HEAD
 title: 🚀 Dima DROID — Портфоліо
 tagline: Code. Create. Inspire.
 description: Персональний сайт студента та розробника. Тут зібрані мої проєкти, резюме та контакти.
@@ -20,3 +21,18 @@ social:
     url: https://github.com/DROID2323
   - name: LinkedIn
     url: https://www.linkedin.com/in/dimadroid/
+=======
+title: Діма DROID — Портфоліо
+tagline: Frontend Developer | Python | Open Source
+description: Портфоліо студента з прикладами проєктів, резюме та контактами.
+baseurl: "" 
+url: "https://username.github.io/repository_name"
+author:
+  name: Діма DROID
+  email: dima@example.com
+social:
+  - name: GitHub
+    url: https://github.com/username
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/username
+>>>>>>> 484f4d358d89b283914ba7ca47580485d6e7c40a
